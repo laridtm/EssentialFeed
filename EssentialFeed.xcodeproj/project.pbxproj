@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530536382CC059ED0062E84D /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530536372CC059ED0062E84D /* CodableFeedStoreTests.swift */; };
 		532CDAB22C358C9400149C6D /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532CDAB12C358C9400149C6D /* FeedItemsMapper.swift */; };
 		532CDAB42C358CBC00149C6D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532CDAB32C358CBC00149C6D /* HTTPClient.swift */; };
 		533E2C362C2C3D8500C6D5FC /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E2C352C2C3D8500C6D5FC /* RemoteFeedLoader.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		530536372CC059ED0062E84D /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		532A46C42C514B81007A2658 /* EssentialFeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EssentialFeed.entitlements; sourceTree = "<group>"; };
 		532A46C52C514EAD007A2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		532CDAB12C358C9400149C6D /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				538B2AC12C88ACCD00193780 /* CacheFeedUseCaseTests.swift */,
 				53E2C0BF2C9E0A970070B355 /* LoadFeedFromCacheUseCaseTests.swift */,
 				5349835C2CADDFF200C0DF2A /* ValidateFeedCacheUseCaseTests.swift */,
+				530536372CC059ED0062E84D /* CodableFeedStoreTests.swift */,
 			);
 			path = FeedCache;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530536382CC059ED0062E84D /* CodableFeedStoreTests.swift in Sources */,
 				5384E8652C23275600E84C41 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				53FE4A542C3EBD0D005F7DC8 /* URLSessionHTTPClientTests.swift in Sources */,
 				5349835B2CADDF5D00C0DF2A /* FeedCacheTestHelpers.swift in Sources */,
