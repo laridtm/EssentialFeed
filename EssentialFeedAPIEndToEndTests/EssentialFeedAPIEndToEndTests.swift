@@ -1,5 +1,5 @@
 import XCTest
-import EssentialFeedMacOS
+import EssentialFeed
 
 class EssentialFeedAPIEndToEndTests: XCTestCase {
     

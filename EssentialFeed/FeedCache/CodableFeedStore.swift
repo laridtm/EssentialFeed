@@ -53,10 +53,6 @@ public class CodableFeedStore: FeedStore {
             let encoder = JSONEncoder()
             let cache = Cache(feed: feed.map(CodableFeedImage.init), timestamp: timestamp)
             let encoded = try encoder.encode(cache)
-//            
-//            // Certifique-se de que o diretório existe antes de tentar gravar
-//            let directory = storeURL.deletingLastPathComponent()
-//            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true, attributes: nil)
                     
             try encoded.write(to: storeURL)
             completion(nil)
