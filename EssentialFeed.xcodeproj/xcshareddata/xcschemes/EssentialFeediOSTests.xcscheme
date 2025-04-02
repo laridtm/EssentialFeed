@@ -19,9 +19,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15071B6F2D9D7FDA00A0600B"
-               BuildableName = "EssentialFeedCacheIntegrationTests.xctest"
-               BlueprintName = "EssentialFeedCacheIntegrationTests"
+               BlueprintIdentifier = "154FE2302D94463E00CED12E"
+               BuildableName = "EssentialFeediOSTests.xctest"
+               BlueprintName = "EssentialFeediOSTests"
                ReferencedContainer = "container:EssentialFeed.xcodeproj">
             </BuildableReference>
          </TestableReference>
